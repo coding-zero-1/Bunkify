@@ -1,12 +1,21 @@
-# React + Vite
+# Bunkify
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple react app to calculate the number of bunk periods required to reach a desired attendance percentage.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User can input current attendance, total attendance and desired attendance percentage
+- App calculates the number of bunk periods required to reach the desired attendance percentage
+- App displays the result in a card with a button to copy the result to clipboard
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Frontend: React, Tailwind CSS
+- Build Tool: Vite
+
+## How to Run
+
+- Clone the repository
+- Run `npm install`
+- Run `npm run dev`
+- Open `http://localhost:3000` in your browser
